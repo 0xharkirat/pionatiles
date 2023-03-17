@@ -3,17 +3,14 @@ import time
 import keyboard
 import win32api, win32con
 
-# 341,796
-# 447,817
-# 557,832
-# 660,847
+# 339,777
+# 467,777
+# 555,777
+# 660,777
+print('script starting in 3 seconds...')
 
-time.sleep(5)
-
-res = pyautogui.locateCenterOnScreen('start.png')
-if res is not None:
-    pyautogui.moveTo(res)
-    pyautogui.click()
+time.sleep(3)
+print('now playing the game...')
 
 
 def click(x, y):
